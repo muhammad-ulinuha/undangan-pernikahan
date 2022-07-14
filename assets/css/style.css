@@ -540,21 +540,13 @@ footer a:hover{
         order: 2;
     }
     .garis-vertikal1{
-        position: absolute;
-        left: 10%;
-        width: 5px;
-        height: 95vh;
-        order: 1;
+        display: none;
     }
     .history-2{
         display: inline-block;
     }
     .garis-vertikal2{
-        position: absolute;
-        /* top: 0; */
-        left: 10%;
-        width: 5px;
-        height: 80vh;
+        display: none;
     }
     .card-4{
         margin-top: 0;
