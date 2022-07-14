@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=The+Nautigal:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Old Standard TT', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+header{
+    text-align: center;
+    height: 100%;
+}
+figure{
+    /* margin-top: 5%; */
+    padding-top: 5%;
+    margin-bottom: 0;
+}
+#figurwedding{
+    max-width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 1px gray;
+}
+figure h4{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 30px;
+    margin-top: 30px;
+    text-shadow: 0 2px 1px gray;
+    color: #CDA66D;
+}
+figure h1{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 50px;
+    margin-top: 0;
+    text-shadow: 0 5px 1px gray;
+}
+
+
+/* navigation */
+nav {
+    background-color: #CDA66D;
+    position: fixed;
+    bottom: 20px;
+    width: 50%;
+    left: 25%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 1px gray;
+
+}
+
+nav ul{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0; */
+    padding-left: 40px;
+    padding-right: 40px;
+    /* width: 100%; */
+}
+
+nav li {
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    /* margin-top: 20px; */
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-family: 'Acme', sans-serif;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+/* waktu */
+#datetime{
+    padding-bottom: 20px;
+    text-align: center;
+}
+#parenttime{
+    display: flex;
+    justify-content: center;
+}
+#boxtime{
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    background-color: #CDA66D;
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: -2px px 0.5px gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+#days{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+#waktu{
+    margin-top: 0;
+    font-size: 11px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    /* height: 5000px; */
+    /* background-color: #cda76d38; */
+    background-image: linear-gradient( #cda76d38, white 80%);
+    border-radius: 20px;
+}
+
+/* section pengantin */
+#pengantin{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+.label-pengantin{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 50px;
+    text-shadow: 0 5px 1px gray;
+    margin-bottom: 0;
+}
+#pengantin h4{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: #CDA66D;
+    text-shadow: 0 1px 1px gray;
+    margin-top: 10px;
+}
+.box-pengantin{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: baseline; */
+    /* align-content: ; */
+}
+.card{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+.card img{
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 1px gray;
+}
+.card h2{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 50px;
+    text-shadow: 0 5px 1px gray;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.card h3{
+    font-size: 18px;
+    color: #CDA66D;
+    text-shadow: 0 1px 1px gray;
+}
+.dan{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 100px;
+    text-shadow: 0 5px 1px gray;
+    color: #CDA66D;
+    margin-top: 250px;
+}
+.dan hr{
+
+    /* display: ; */
+    height: 4px;
+    background-color: #CDA66D;
+    margin-top: 15px;
+}
+
+/* section acara */
+#acara{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#acara h1{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 50px;
+    text-shadow: 0 5px 1px gray;
+    margin-bottom: 0;
+}
+.box-acara{
+    display: flex;
+    justify-content: space-around;
+}
+.card-2{
+    background-color: #CDA66D;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 5px solid white;
+    /* padding: 20px; */
+}
+.card-2 h3{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 3px 1px gray;
+    /* margin-bottom: 0; */
+}
+.card-2 h4, h5{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 2px 1px gray;
+    margin: 0;
+}
+.card-2 h4{
+    margin-top: 20px;
+}
+.card-2 h5{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.card-2 p{
+    font-size: 10px;
+    color: white;
+    text-shadow: 0 2px 1px gray;
+    margin-bottom: 10px;
+}
+.button-lokasi{
+    margin-top: 60px;
+}
+.card-2 a{
+    /* border: solid; */
+    margin: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #CDA66D;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    text-shadow: 0 0px 1px gray;
+    box-shadow: 0 1px 5px gray;
+}
+.card-2 a:hover{
+    background-color: #CDA66D;
+    color: white;
+    transition: 0.5s;
+}
+
+/* section galeri */
+#galeri{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #CDA66D;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+#galeri h1{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 50px;
+    text-shadow: 0 5px 1px rgb(21, 20, 20);
+    color: white;
+}
+.box-galeri{
+    margin-bottom: 50px;
+    
+}
+.history-1{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* align-items: stretch; */
+}
+.history-1 .label1{
+    margin-left: 235px;
+    font-size: 15px;
+    order: 1;
+}
+.label1 h2{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 1px 15px black;
+    width: 160px;
+}
+.garis-vertikal1{
+    width: 5px;
+    background-color: white;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    order: 2;
+}
+.card-3{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 20px black;
+    width: 390px;
+    order: 3;
+}
+.card-3 img{
+    width: 350px;
+    border-radius: 5px;
+    
+}
+.card-3 p{
+    margin: 10px auto;
+    width: 300px;
+}
+
+.history-2{
+    display: flex;
+    justify-content: center;
+    /* align-items: stretch; */
+}
+.history-2 .label2{
+    margin-right: 225px;
+    margin-top: 50px;
+    font-size: 15px;
+    order: 3;
+}
+.label2 h2{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 1px 15px black;
+    width: 160px;
+}
+.garis-vertikal2{
+    width: 5px;
+    background-color: white;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    order: 2;
+}
+.card-4{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 20px black;
+    margin-top: 50px;
+    width: 390px;
+    order: 1;
+}
+.card-4 img{
+    width: 350px;
+    border-radius: 5px;
+}
+.card-4 p{
+    margin: 10px auto;
+    width: 300px;
+}
+
+/* ucapan */
+#ucapan{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #CDA66D;
+    padding: 20px;
+    padding-bottom: 100px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.formpesan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label-pesan{
+    font-family: 'The Nautigal', 'cursive';
+    font-size: 50px;
+    text-shadow: 0 5px 1px rgb(21, 20, 20);
+    color: white;
+}
+.textarea textarea{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: 0 1px 5px black;
+}
+.button button{
+    padding: 10px;
+    font-family: 'Acme', sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: black;
+    color: #CDA66D;
+    border-color: #CDA66D;
+}
+.button button:hover{
+    background-color: white;
+}
+#notif{
+    font-family: 'Acme', sans-serif;
+    font-style: oblique;
+    text-decoration-line: underline;
+}
+#tampilpesan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+#tampilpesan p{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 50%;
+    font-size: 14px;
+    font-family: 'Acme', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px black;
+}
+
+
+/* footer */
+footer{
+    padding: 100px;
+    background-color: #cda76d38;
+    text-align: center;
+    font-weight: bold;
+}
+footer a{
+    color: #CDA66D;    
+    text-shadow: 0 1px 2px rgb(21, 20, 20);
+    font-family: 'Acme', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer a:hover{
+    color: black;
+    font-size: 25px;
+    transition: 0.5s;
+}
+/* responsive */
+@media only screen and (max-width: 425px) {
+    /* For phone: */
+    .box-galeri{
+        text-align: center;
+        margin-top: 0;
+    }
+    .history-1{
+        display: inline-block;
+    }
+    .history-2{
+        display: inline-block;
+    }
+    .history-1 .label1{
+        /* margin-left: 0; */
+    }
+    .history-2 .label2{
+        margin-right: 0;
+    }
+    .garis-vertikal1{
+        display: none;
+    }
+    
+    .garis-vertikal2{
+        display: none;
+    }
+    .card-3{
+        width: 250px;
+    }
+    .card-4{
+        width: 250px;
+        margin-top: 0;
+    }
+    .card-3 img{
+        width: 210px;
+    }
+    .card-4 img{
+        width: 210px;
+    }
+    .card-3 p{
+        width: 200px;
+    }
+    .card-4 p{
+        width: 200px;
+    }
+    
+}
+    
+@media only screen and (max-width: 768px) {
+    /* For tablet: */
+    #figurwedding{
+        max-width: 250px;
+    }
+    figure h4{
+        font-size: 25px;
+    }
+    figure h1{
+        font-size: 40px;
+    }
+    nav{
+        width: 100%;
+        left: 0;
+    }
+    .box-pengantin{
+        display: block;
+        /* justify-content: space-evenly; */
+        /* align-items: baseline; */
+        /* align-content: ; */
+    }
+    .dan{
+        margin-top: 0;
+    }
+    .dan hr{
+        height: 4px;
+        background-color: #CDA66D;
+        margin-top: 15px;
+        width: 80px;
+    }
+    .box-acara{
+        display: inline-block;
+    }
+    .history-1{
+        display: inline-block;
+    }
+    .history-1 .label1{
+        margin-left: 0;
+        order: 2;
+    }
+    .garis-vertikal1{
+        position: absolute;
+        left: 10%;
+        width: 5px;
+        height: 95vh;
+        order: 1;
+    }
+    .history-2{
+        display: inline-block;
+    }
+    .garis-vertikal2{
+        position: absolute;
+        /* top: 0; */
+        left: 10%;
+        width: 5px;
+        height: 80vh;
+    }
+    .card-4{
+        margin-top: 0;
+    }
+    .formpesan{
+        display: flex;
+        flex-direction: column;
+    }
+}
